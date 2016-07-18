@@ -1,0 +1,10 @@
+{
+    "devicecloud": {
+        "encode serial": true
+    },
+    "xbee_manager": {
+        "filter_analog_duplicates": true,
+        "minimum_analog_change": 1,
+        "filter_digital_duplicates": true
+    }
+}

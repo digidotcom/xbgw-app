@@ -1,0 +1,7 @@
+*.py    text
+
+# Bash (e.g. on Cygwin) does not handle CR+LF line endings well.
+# Force .sh files to use LF line endings.
+*.sh    eol=lf
+
+README-internal.md  export-ignore

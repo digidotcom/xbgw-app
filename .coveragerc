@@ -1,0 +1,13 @@
+[run]
+source = xbgw
+omit = xbgw/debug/*
+
+[report]
+exclude_lines = pragma: no cover
+                raise NotImplementedError
+                if 0:
+                if False:
+                if __name__ == .__main__.
+                pass
+                def __repr__
+                if self._*debug
